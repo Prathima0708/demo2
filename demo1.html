@@ -1,20 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        .mydiv
+        /* .mydiv
         {
             background-color: lavender;
             border: 5px outset purple;
             font-family: Arial, Helvetica, sans-serif;
+        } */
+       
+        li:hover
+        {
+            color: brown;
         }
+        li
+        {
+            color: rgb(30, 28, 32);
+           
+        }
+        .container
+        {
+           background-image: url("asset/images/nature.jpg");
+          border: brown solid 5px;
+          
+           background-repeat: no-repeat;
+           background-position: right;
+           border-radius: 30px;
+
+        margin-top: 50px;
+        margin-right: 30px;
+        margin-left: 30px;
+        
+        padding-top: 40px; 
+        padding-left: 30px;  
+        
+
+        border-top: dotted;
+        
+        }
+      
     </style>
 </head>
-<body style="background-color: lightgrey;">
+<body>
     <h4>Start of Div Section</h4>
     <div class="mydiv">
         <h1>this is a heading in div element</h1>
@@ -34,6 +67,23 @@
     <p>this is a text in <span style="color: red;">red </span>color</p>
     <p>this is a text in <span style="color: purple;"> purple </span>colour</p>
 
+    <div class="container">
+        
+        <ul id="unordered">
+            <li>cofee</li>
+            <li>tea</li>
+            <li>milk</li>
+        </ul>
+        <ol id="ordered">
+            <li>cofee</li>
+            <li>tea</li>
+            <li>milk</li>
+        </ol>
+    </div>
+
+    <p>end of list items</p>
+    
+</div>
 
 </body>
 </html>
