@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo</title>
+
+    <link rel="stylesheet" href="./font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    
     <link rel="stylesheet" href="style.css">
     <style>
         /* .mydiv
@@ -42,9 +45,50 @@
         
 
         border-top: dotted;
+
+      
         
         }
-      
+    
+      #para
+      {
+          color: crimson;
+          text-align: justify;
+          text-transform: capitalize;
+          text-indent: 30px; 
+          letter-spacing: 1px;
+          line-height: 20px;
+          word-spacing: 10px;
+          text-shadow: 10px 2px rgb(177, 204, 209);
+          font: bolder 15px arial;
+
+      }
+
+      .fa
+      {
+          color: cornflowerblue;
+      }
+      a:link
+      {
+          color: darkblue;
+      }
+      a:visited
+      {
+          color: darkorchid;
+      }
+     a:hover
+     {
+         color: darkred;
+     }
+     a:active
+     {
+         color: darkslategray;
+     }
+     a.highlight:hover
+     {
+         font-size: 25px;
+         color: rgb(6, 7, 5);
+     }
     </style>
 </head>
 <body>
@@ -67,22 +111,51 @@
     <p>this is a text in <span style="color: red;">red </span>color</p>
     <p>this is a text in <span style="color: purple;"> purple </span>colour</p>
 
-    <div class="container">
-        
+    <div class="container" style="height: 200px; overflow-y: scroll;">
+    
         <ul id="unordered">
             <li>cofee</li>
             <li>tea</li>
             <li>milk</li>
+            <li>cofee</li>
+          
         </ul>
         <ol id="ordered">
             <li>cofee</li>
             <li>tea</li>
             <li>milk</li>
+            <li>cofee</li>
+            <li>tea</li>
+            <li>milk</li>
+            <li>cofee</li>
+            <li>tea</li>
+            <li>milk</li>
+            
+            
+
         </ol>
     </div>
 
     <p>end of list items</p>
+    <p id="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi repellendus, dolor doloremque quam neque quo. Sunt magnam non impedit molestias atque harum saepe quod illo error, libero placeat quas porro.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem debitis nesciunt nisi necessitatibus impedit fuga distinctio corrupti, dolorem consequuntur cumque perferendis illum nobis. Architecto dolorem, earum temporibus optio quo perferendis.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt assumenda nisi doloribus veniam ea natus distinctio officia! Architecto inventore numquam distinctio fuga maiores vitae adipisci ullam, perferendis consequatur quos aspernatur.
+    </p>
+
     
+<h3 style="color: rgb(66, 24, 121);">Font Awesome icons</h3>
+    <i class="fa fa-camera-retro fa-lg"></i><br> <br>
+
+    <a href="https://www.google.com" target="_blank">Google</a><br>
+    
+    <a href="https://www.facebook.com" class="highlight" target="_blank">Facebook</a><br>
+
+    
+    <a href="https://www.instagram.com" target="_blank">Instagram</a><br>
+
+
+
+
 </div>
 
 </body>
