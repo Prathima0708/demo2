@@ -2,11 +2,15 @@
 {
     border: 1px solid black;
     background-color: rgb(73, 23, 119);
-    height: 70px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
 
 
+}
+body
+{
+    margin: 0;
 }
 
 ul
@@ -27,7 +31,9 @@ ul li{
  
     
     display: inline;
-    padding:0 30%;
+
+    padding-left: 20px;
+    padding-right: 30px;
 }
 ul li a{
     text-decoration: none;
@@ -44,21 +50,29 @@ h5{
     position: relative; */
     left: -47%;
     font-size: 20px;
+
+    margin: 12px ;
+
+    padding-left: 50px;
 }
 .cover img{
     background-size: cover;
     height: 600px;
-    width: 1500px;
+    width: 100%;
+    opacity: 0.8;
 }
+/* .cover
+{
+    opacity: 0.5;
+} */
 .text
 {
     position:absolute;
     top: 30%;
     left: 35%;
     line-height: 50%;
-    
-    
-   
+
+   text-align: center;
 }
 h1{
     font-size: 50px;
@@ -74,14 +88,16 @@ p{
 }
 .btn
 {
-    border: 3px solid white;
-    color: rgb(3, 5, 10);
+    /* border: 3px solid rgb(231, 219, 231); */
+   
     text-decoration: none;
-    border-radius:20px;
-    
-    padding:10px;
-}
-.btn:hover{
-    color: tomato;
-    background-color: yellow;
-}
+    border-radius:32px;
+
+    background-color: rgb(226, 43, 217);
+    padding:10px 30px 10px 30px;
+    line-height: 50px;
+font-size: 20px;
+    color: white;
+  }
+
+
