@@ -8,6 +8,10 @@
 
 
 }
+.box1 .fa
+{
+    margin-right: 8px;
+}
 body
 {
     margin: 0;
@@ -59,7 +63,7 @@ h5{
     background-size: cover;
     height: 600px;
     width: 100%;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 /* .cover
 {
@@ -99,5 +103,4 @@ p{
 font-size: 20px;
     color: white;
   }
-
 

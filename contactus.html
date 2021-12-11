@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        body
+        {
+            
+            background: url(/asset/images/nature.jpg)no-repeat;
+            background-size: cover;
+
+        }
+        .contact-box
+        {
+            width: 500px;
+            background-color: honeydew;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%,-50%);
+           position: absolute;
+        }
+        form{
+            margin: 35px;
+           
+
+        }
+        .input-field
+        {
+            width: 400px;
+            height: 40px;
+            margin-top: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border: 1px solid black;
+            border-radius: 10px;
+            outline: none
+        }
+.textarea-field
+{
+    height: 100px;
+    padding-top:10px;
+    padding-left: 10px;
+   
+}
+.btn
+{
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: green;
+    color: white;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <div class="contact-box">
+        <form>
+            <input type="text" class="input-field" placeholder="Your Name">
+            <input type="email" class="input-field" placeholder="Your Email">
+            <input type="text" class="input-field" placeholder="Subject">
+            <textarea type="text" class="input-field textarea-field" placeholder="Your message">
+</textarea>
+<button type="button" class="btn">Send Message</button>
+        </form>
+    </div>
+    
+</body>
+</html>
